@@ -1,0 +1,15 @@
+// Using sandbox
+// Create a daml project with UI
+daml new MySecondDamlApp --template create-daml-app
+cd MySecondDamlApp
+daml studio
+daml build
+
+
+open project in new terminal type 
+daml start  -> This will only start sandbox not navigator because of daml.yaml start-navigator: false 
+
+go back to terminal first and then
+nvm use 18.12.0
+npm i
+npm start

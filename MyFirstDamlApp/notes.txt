@@ -1,0 +1,4 @@
+//Creates a daml project with script 
+// On daml start sandbox and navigator will fire up by default
+daml new MyFirstDamlApp
+daml studio
